@@ -1,0 +1,24 @@
+From b3e19bff80dd6479859fe4c8fb243c27c272bf8c Mon Sep 17 00:00:00 2001
+From: kenny <xchenfm@berkeley.edu>
+Date: Tue, 25 Jun 2024 12:27:05 +0800
+Subject: [PATCH] changed
+
+---
+ client3.py | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/client3.py b/client3.py
+index a981095..7895148 100644
+--- a/client3.py
++++ b/client3.py
+@@ -56,6 +56,7 @@ if __name__ == "__main__":
+ 
+         """ ----------- Update to get the ratio --------------- """
+         prices = {}
++        p = 1
+         for quote in quotes:
+             stock, bid_price, ask_price, price = getDataPoint(quote)
+             prices[stock] = price
+-- 
+2.41.0
+
