@@ -1,0 +1,1 @@
+(bid_price + ask_price)/2

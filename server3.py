@@ -35,8 +35,7 @@ import dateutil.parser
 
 ################################################################################
 #
-# Config
-
+# Confi
 # Sim params
 
 REALTIME = True
